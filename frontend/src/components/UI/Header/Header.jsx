@@ -1,6 +1,6 @@
 function Header({text, title}) {
     return (
-        <header>{title} {text}</header>
+        <header className="header">{title} {text}</header>
     )
 }
 

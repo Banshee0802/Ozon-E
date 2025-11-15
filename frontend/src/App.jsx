@@ -24,6 +24,7 @@ function App() {
     <>
     <Header text="шапка сайта" title="Заголовок"/>
     <h1 onClick={h1Click} onMouseEnter={() => console.log('Навели курсор на h1')}>Список Items {tempText}</h1>
+    <h2 className='header'>Test</h2>
         <ul>
           {items.map(item => (
             <li key={item.id}>
