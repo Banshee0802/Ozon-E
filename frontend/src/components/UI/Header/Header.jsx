@@ -1,6 +1,6 @@
-function Header() {
+function Header(props) {
     return (
-        <header>Шапка сайта</header>
+        <header>{props.title}{props.text}</header>
     )
 }
 
