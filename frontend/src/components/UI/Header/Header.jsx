@@ -1,6 +1,6 @@
-function Header(props) {
+function Header({text, title}) {
     return (
-        <header>{props.title}{props.text}</header>
+        <header>{title} {text}</header>
     )
 }
 
